@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MediaCodec</string>
+    <string name="decode_audio">音频解码(AAC TO PCM)</string>
+    <string name="play_pcm">播放PCM</string>
+    <string name="play_aac">播放AAC(先转换成PCM再播放)</string>
+    <string name="stop_play">停止</string>
+    <string name="encode_audio">音频编码(PCM TO AAC)</string>
+    <string name="audio_decode_finish">音频解码完成</string>
+    <string name="audio_decode_fail">音频解码失败</string>
+    <string name="audio_encode_finish">音频编码完成</string>
+    <string name="audio_encode_fail">音频编码失败</string>
+    <string name="running">正在处理中，请稍后</string>
+    AudioDecode
+</resources>

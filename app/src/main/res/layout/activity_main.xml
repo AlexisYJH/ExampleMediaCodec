@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="10dp">
+
+    <Button
+        android:id="@+id/btn_decode_audio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/decode_audio"/>
+
+    <Button
+        android:id="@+id/btn_play_pcm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play_pcm"/>
+
+    <Button
+        android:id="@+id/btn_encode_audio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/encode_audio"/>
+
+    <Button
+        android:id="@+id/btn_play_aac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play_aac"/>
+
+</LinearLayout>
